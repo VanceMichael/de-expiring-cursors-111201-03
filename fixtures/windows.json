@@ -1,0 +1,57 @@
+{
+  "precision": 1,
+  "lookback": 2,
+  "page_size": 2,
+  "cap": 3,
+  "records": [
+    {
+      "id": "r0",
+      "revision": 1,
+      "updated": 3,
+      "value": 0
+    },
+    {
+      "id": "r1",
+      "revision": 1,
+      "updated": 3,
+      "value": 1
+    },
+    {
+      "id": "r2",
+      "revision": 1,
+      "updated": 3,
+      "value": 2
+    },
+    {
+      "id": "r3",
+      "revision": 1,
+      "updated": 3,
+      "value": 3
+    },
+    {
+      "id": "r4",
+      "revision": 1,
+      "updated": 3,
+      "value": 4
+    }
+  ],
+  "events": [
+    {
+      "clock": 0,
+      "type": "open",
+      "start": 0,
+      "end": 10
+    },
+    {
+      "clock": 6,
+      "type": "continue"
+    },
+    {
+      "clock": 7,
+      "type": "replace",
+      "id": "r1",
+      "revision": 2,
+      "updated": 7
+    }
+  ]
+}
